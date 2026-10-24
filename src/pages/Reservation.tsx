@@ -19,10 +19,10 @@ interface Service {
 }
 
 const services: Service[] = [
-  { name: "Coupe de cheveux", duration: "30 min", price: "À définir" },
-  { name: "Taille de barbe", duration: "20 min", price: "À définir" },
-  { name: "Coupe + barbe", duration: "45 min", price: "À définir" },
-  { name: "Soin premium", duration: "30 min", price: "À définir" },
+  { name: "Coupe de cheveux", duration: "30 min", price: "20 €" },
+  { name: "Taille de barbe", duration: "20 min", price: "18 €" },
+  { name: "Coupe + barbe", duration: "45 min", price: "38 €" },
+  { name: "Soin premium", duration: "30 min", price: "30 €" },
 ];
 
 const horaires = [
